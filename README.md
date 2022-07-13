@@ -1,27 +1,30 @@
-# DiscographyReader
+# Discography Reader
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+This is a project developed in Angular. It is able to read a .txt file with the data about Bob Dylan's dicography (released year and disk's name).
 
-## Development server
+The application orders the data and classifies it according the decade where the disks was released. Then, it connects with the Trello API and generate a list for each decade and put the cards in the correct column. In the case where two disks have the same year, then the order will be alphabetically.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Other feature, is the connection with Spotify to get the art clip for each disk!
 
-## Code scaffolding
+## Install and run the app!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To use the app, you must clone the repository and then, verify you have already installed the Angular CLI (https://angular.io/cli). If you don't have it, you can install it with the page's instructions.
 
-## Build
+Finally, you should go to the project folder
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+cd discography-reader
+```
 
-## Running unit tests
+And execute the next command
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+ng serve
+```
 
-## Running end-to-end tests
+And it's all! Now you can access by the URL http://localhost:4200
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## About me
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Mauro Rocca**
+FullStack Developer
